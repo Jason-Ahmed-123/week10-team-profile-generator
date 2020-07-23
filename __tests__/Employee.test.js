@@ -3,7 +3,7 @@ const Employee = require('../lib/Employee.js');
 test('creates an employee object', () => {
     // [new] keyword creates new objects (Employee)
     const employee = new Employee();
-    expect(typeof(employee)).toBe("object");
+    expect(typeof (employee)).toBe("object");
 });
 
 test('set a name via the constructor function', () => {
@@ -49,5 +49,5 @@ test('Test getEmail function', () => {
 test('Test the getRole function', () => {
     const testValue = 'Employee';
     const employee = new Employee('Jason Ahmed', 1, 'jason_ahmed@yahoo.com');
-    expect (employee.getRole()).toBe(testValue);
+    expect(employee.getRole()).toBe(testValue);
 });
