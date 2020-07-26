@@ -167,54 +167,54 @@ async function run() {
     <div class="row">
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>Jason</h4>
+                <h4>Stuart Redman</h4>
             </div>
             <div class="col card-header">
                 <h4>Manager</h4>
             </div>
             <ul class="list-group list-group-flush text">
-                <li class="list-group-item">ID: 1</li>
-                <li class="list-group-item">Email: jason_ahmed@yahoo.com</li>
-                <li class="list-group-item">Office Number: 1</li>
+                <li class="list-group-item">ID: 4</li>
+                <li class="list-group-item">Email: sredman@test.com</li>
+                <li class="list-group-item">Office Number: 101</li>
             </ul>
         </div>
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>Jane</h4>
+                <h4>Jason Ahmed</h4>
             </div>
             <div class="col card-header">
                 <h4>Engineer</h4>
             </div>
             <ul class="list-group list-group-flush text">
                 <li class="list-group-item">ID: 2</li>
-                <li class="list-group-item">Email: jane@test.com</li>
-                <li class="list-group-item">GitHub: GitHub Username</li>
+                <li class="list-group-item">Email: jason_ahmed@yahoo.com</li>
+                <li class="list-group-item">GitHub: Jason-Ahmed-123</li>
             </ul>
         </div>
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>John</h4>
+                <h4>Frances Goldsmith</h4>
             </div>
             <div class="col card-header">
                 <h4>Intern</h4>
             </div>
             <ul class="list-group list-group-flush text">
-                <li class="list-group-item">ID: 3</li>
-                <li class="list-group-item">Email: john@test.com</li>
+                <li class="list-group-item">ID: 6</li>
+                <li class="list-group-item">Email: fgoldsmith@test.com</li>
                 <li class="list-group-item">School: UKC</li>
             </ul>
         </div>
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>David</h4>
+                <h4>Tom Cullen</h4>
             </div>
             <div class="col card-header">
                 <h4>Intern</h4>
             </div>
             <ul class="list-group list-group-flush text">
-                <li class="list-group-item">ID: 4</li>
-                <li class="list-group-item">Email: david@test.com</li>
-                <li class="list-group-item">School: UCLA</li>
+                <li class="list-group-item">ID: 8</li>
+                <li class="list-group-item">Email: moon@test.com</li>
+                <li class="list-group-item">School: none</li>
             </ul>
         </div>
     </div>
