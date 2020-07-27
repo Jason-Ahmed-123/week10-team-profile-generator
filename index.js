@@ -121,6 +121,8 @@ async function run() {
     }
 
 
+// How do I write the script that generates the final webpage, with all the fields populated???
+
     let html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -128,7 +130,7 @@ async function run() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Team Profile</title>
     <style>
         .row {
             display: flex;
@@ -167,54 +169,54 @@ async function run() {
     <div class="row">
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>Stuart Redman</h4>
+                <h4>Jason Ahmed</h4>
+            </div>
+            <div class="col card-header">
+                <h4>Intern</h4>
+            </div>
+            <ul class="list-group list-group-flush text">
+                <li class="list-group-item">ID: 2</li>
+                <li class="list-group-item">Email: jason_ahmed@yahoo.com</li>
+                <li class="list-group-item">School: UKC</li>
+            </ul>
+        </div>
+        <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
+            <div class="col card-header">
+                <h4>Lee Adama</h4>
             </div>
             <div class="col card-header">
                 <h4>Manager</h4>
             </div>
             <ul class="list-group list-group-flush text">
                 <li class="list-group-item">ID: 4</li>
-                <li class="list-group-item">Email: sredman@test.com</li>
+                <li class="list-group-item">Email: ladama@test.com</li>
                 <li class="list-group-item">Office Number: 101</li>
             </ul>
         </div>
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>Jason Ahmed</h4>
-            </div>
-            <div class="col card-header">
-                <h4>Engineer</h4>
-            </div>
-            <ul class="list-group list-group-flush text">
-                <li class="list-group-item">ID: 2</li>
-                <li class="list-group-item">Email: jason_ahmed@yahoo.com</li>
-                <li class="list-group-item">GitHub: Jason-Ahmed-123</li>
-            </ul>
-        </div>
-        <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
-            <div class="col card-header">
-                <h4>Frances Goldsmith</h4>
+                <h4>Kara Thrace</h4>
             </div>
             <div class="col card-header">
                 <h4>Intern</h4>
             </div>
             <ul class="list-group list-group-flush text">
                 <li class="list-group-item">ID: 6</li>
-                <li class="list-group-item">Email: fgoldsmith@test.com</li>
-                <li class="list-group-item">School: UKC</li>
+                <li class="list-group-item">Email: kthrace@test.com</li>
+                <li class="list-group-item">School: Caprica U</li>
             </ul>
         </div>
         <div class="card bg-dark justify-content-center align-items-center" style="width: 18rem;">
             <div class="col card-header">
-                <h4>Tom Cullen</h4>
+                <h4>Gaius Baltar</h4>
             </div>
             <div class="col card-header">
-                <h4>Intern</h4>
+                <h4>Engineer</h4>
             </div>
             <ul class="list-group list-group-flush text">
                 <li class="list-group-item">ID: 8</li>
-                <li class="list-group-item">Email: moon@test.com</li>
-                <li class="list-group-item">School: none</li>
+                <li class="list-group-item">Email: gbaltar@test.com</li>
+                <li class="list-group-item">School: Caprica U</li>
             </ul>
         </div>
     </div>
